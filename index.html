@@ -16,10 +16,11 @@
     <link rel="stylesheet" href="CSS/slick.css">
     <link rel="stylesheet" href="css/jquery.formstyler.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="header_top">
             <div class="container">
                 <div class="header_contacts">
@@ -34,17 +35,20 @@
             <div class="container">
                 <div class="header_content-inner">
                     <div class="header_logo">
-                        <a href="#" class="logo2">
+                        <a href="#header" class="logo2">
                             <img src="img/logo8.png" alt="">
                         </a>
                     </div>
                     <nav class="menu">
+                        <div class="header__btn-menu">
+                            <span class="icon-bars"></span>
+                        </div>
                         <ul>
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">О Компании</a></li>
-                            <li><a href="#">Услуги</a></li>
-                            <li><a href="#">Контакты</a></li>
-                            <li><a href="#">Галерея</a></li>
+                            <li><a href="#header">Главная</a></li>
+                            <li><a href="#company">О Компании</a></li>
+                            <li><a href="#services">Услуги</a></li>
+                            <li><a href="#footer">Контакты</a></li>
+                            <li><a href="gallery/gallery.html">Галерея</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -99,7 +103,7 @@
     </section>
 
     <section class="services">
-        <div class="container">
+        <div class="container" id="services">
             <div class="services__top">
                 <div class="services__title-box">
                     <div class="services__title">
@@ -166,7 +170,8 @@
             </div>
         </div>
     </section>
-    <section class="about">
+
+    <section class="about" id="company">
         <div class="container">
             <div class="about__inner">
                 <div class="about__title">
@@ -185,6 +190,7 @@
             </div>
         </div>
     </section>
+
     <section class="form">
         <div class="container">
             <div class="form__inner">
@@ -268,6 +274,7 @@
             </div>
         </div>
     </section>
+
     <section class="architect">
         <div class="container">
             <div class="architect__top">
@@ -294,33 +301,34 @@
             </div>
         </div>
     </section>
+
     <footer class="footer">
-        <div class="footer__content">
+        <div class="footer__content" id="footer">
             <div class="container">
                 <div class="footer__inner">
-                <div class="footer__info">
-                    <div class="footer__title">
-                        ЧУП "Ремесло"
+                    <div class="footer__info">
+                        <div class="footer__title">
+                            ЧУП "Ремесло"
+                        </div>
+                        <div class="footer__text">
+                            Обращаясь в нашу компанию, Вы получите 100% сервис и качество.
+                        </div>
+                        <a data-fancybox data-src="#modal" href="javascript:;" class="header_btn" href="#">
+                            Обратная связь
+                        </a>
+                        <div class="footer__list">
+                            <li><a class="footer__phone" href="tel: 375296563830">+375 (29) 656-38-30</a></li>
+                            <li><a href="#">remeslo-1@tut.by</a></li>
+                            <li><a class="footer__adress" href="#">г.Заславль, ул. Путейко</a></li>
+                        </div>
                     </div>
-                    <div class="footer__text">
-                        Обращаясь в нашу компанию, Вы получите 100% сервис и качество.
-                    </div>
-                    <a data-fancybox data-src="#modal" href="javascript:;" class="header_btn" href="#">
-                        Обратная связь
-                    </a>
-                    <div class="footer__list">
-                        <li><a class="footer__phone" href="tel: 375296563830">+375 (29) 656-38-30</a></li>
-                        <li><a href="#">remeslo-1@tut.by</a></li>
-                        <li><a class="footer__adress" href="#">г.Заславль, ул. Путейко</a></li>
+                    <div class="footer__map">
+                        <iframe height="250px"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1650.9005272574177!2d27.28185423939164!3d54.004520275625275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbe907e780b00d%3A0x1d0ece6983e741d8!2z0KfQo9CfICLQoNC10LzQtdGB0LvQviI!5e0!3m2!1sru!2sby!4v1659440247643!5m2!1sru!2sby"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-                <div class="footer__map">
-                    <iframe width="630px" height="250px"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1650.9005272574177!2d27.28185423939164!3d54.004520275625275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbe907e780b00d%3A0x1d0ece6983e741d8!2z0KfQo9CfICLQoNC10LzQtdGB0LvQviI!5e0!3m2!1sru!2sby!4v1659440247643!5m2!1sru!2sby"
-                        style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
             </div>
         </div>
         <div class="footer__copy">

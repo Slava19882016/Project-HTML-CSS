@@ -138,6 +138,15 @@ header {
 
 }
 
+.slider2 {
+    background-image: url(../IMG/gallery-fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+
+}
+
 .slider__item-content {
     text-align: center;
     padding-top: 110px;
@@ -251,7 +260,8 @@ header {
 
 .services__title-box,
 .form__title-box,
-.architect__title-box {
+.architect__title-box,
+.gallery__title-box {
     max-width: 520px;
     padding-left: 140px;
     position: relative;
@@ -259,7 +269,8 @@ header {
 
 .services__title-box:before,
 .form__title-box:before,
-.architect__title-box:before {
+.architect__title-box:before,
+.gallery__title-box:before {
     content: '';
     position: absolute;
     width: 100px;
@@ -271,7 +282,8 @@ header {
 
 .services__title,
 .form__title,
-.architect__title {
+.architect__title,
+.gallery__title {
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
@@ -610,13 +622,14 @@ header {
 
 .footer__map {
     padding-top: 10px;
+    width: 100%;
 }
 
-/* .footer__map iframe{
-max-width: 630px;
-width: 100%;
-height: 250px;
-} */
+.footer__map iframe {
+
+    width: 100%;
+
+}
 
 .footer__title {
     font-family: 'Roboto', sans-serif;
@@ -704,4 +717,59 @@ height: 250px;
 #modal input[type="submit"] {
     background-color: #8a9423;
     border: none;
+}
+
+.header__btn-menu {
+    display: none;
+    font-size: 30px;
+}
+
+.gallery {
+    padding: 30px 0px 30px;
+}
+
+.gallery__items {
+    min-width: 1000px;
+    margin: 50px;
+
+
+}
+
+.gallery__item {
+    position: relative;
+    margin: 7px;
+    min-width: 250px;
+    min-height: 250px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0px 25px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 7px 24.3px 2.7px rgba(83, 103, 51, 0.587);
+}
+
+.gallery__item-btn {
+    margin: 5px;
+}
+
+.gallery__item-link {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid #000;
+    margin-right: 9px;
+    transition: all .3s;
+}
+
+.gallery__item-link:hover {
+    border-bottom-color: #8a9423;
+    color: #8a9423;
+}
+
+
+.picture {
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.gallery__item:hover .picture {
+    transform: scale(1.1);
 }
