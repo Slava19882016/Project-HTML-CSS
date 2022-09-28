@@ -625,9 +625,15 @@ header {
     width: 100%;
 }
 
+<<<<<<< HEAD
 .footer__map iframe {
 
     width: 100%;
+=======
+.footer__map iframe{
+
+width: 100%;
+>>>>>>> main
 
 }
 
@@ -718,6 +724,7 @@ header {
     background-color: #8a9423;
     border: none;
 }
+<<<<<<< HEAD
 
 .header__btn-menu {
     display: none;
@@ -772,4 +779,9 @@ header {
 
 .gallery__item:hover .picture {
     transform: scale(1.1);
+=======
+.header__btn-menu{
+    display: none;
+    font-size: 30px;
+>>>>>>> main
 }

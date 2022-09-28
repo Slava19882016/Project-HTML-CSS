@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (max-width: 1250px){
     .gallery__items{
         min-width: 600px;
@@ -5,6 +6,8 @@
     }
     
 }
+=======
+>>>>>>> main
 @media (max-width: 1156px) {
     .services__items {
         display: block;
@@ -143,10 +146,13 @@
         min-width: 390px;
         
     }
+<<<<<<< HEAD
     .gallery__items{
         min-width: 370px;
         margin: 50px; 
     }
+=======
+>>>>>>> main
 }
 
 
@@ -157,6 +163,7 @@
         margin: 30px auto;
 
     }
+<<<<<<< HEAD
     .gallery__items{
         min-width: 200px;
         margin: auto;
@@ -165,6 +172,8 @@
     .gallery__item{
        min-width: 150px;
     }
+=======
+>>>>>>> main
 }
 
 @media (max-width: 414px) {
@@ -182,6 +191,7 @@
         min-width: 290px;
         
     }
+<<<<<<< HEAD
     .gallery__item{
         min-height: 100px;
      }
@@ -190,6 +200,9 @@
         height: 100px;
     }
 
+=======
+    
+>>>>>>> main
 }
 
 @media (max-width: 375px) {
