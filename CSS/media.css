@@ -41,9 +41,15 @@
     .footer__map{
         max-width: 100%;
     }
+    .album-item{
+        flex: 25%;
+    }
 }
 @media (max-width: 900px) {
-    .slider .slick-btn{
+    .slider2 .slick-btn{
+        display: none !important;
+    }
+   .slider .slick-btn{
         display: none !important;
     }
     .header_btn {
@@ -165,6 +171,8 @@
     .gallery__item{
        min-width: 150px;
     }
+    
+    
 }
 
 @media (max-width: 414px) {
@@ -181,6 +189,12 @@
     .architect__text-box{
         min-width: 290px;
         
+    }
+    .gallery__title-box{
+        padding-left: 100px;
+    }
+    .gallery__title-box:before{
+        width: 70px;
     }
     .gallery__item{
         min-height: 100px;

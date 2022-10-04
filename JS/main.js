@@ -13,5 +13,13 @@ $(function () {
         $('.menu ul').slideToggle();
     });
 
-    
+    $(".album-list").magnificPopup({
+        delegate: "a",
+        type: "image",
+        gallery: {
+            enabled: true
+        }
+    });
+
+
 });
