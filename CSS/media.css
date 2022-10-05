@@ -171,8 +171,23 @@
     .gallery__item{
        min-width: 150px;
     }
-    
-    
+    #modal1,
+    #modal2 {
+        margin: 20px;
+    }
+    #modal1 h2,
+    #modal2 h2{
+        font-size: 18px;
+    }
+    #modal2 h3{
+        font-size: 14px;
+    }
+    #modal1 p,
+    #modal2 p{
+        line-height: 15px;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 414px) {
