@@ -160,7 +160,7 @@ header {
 }
 
 .slider {
-    background-image: url(../IMG/slider-fon1.jpg);
+    background-image: url(../img/slider-fon1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -169,7 +169,7 @@ header {
 }
 
 .slider2 {
-    background-image: url(../IMG/gallery-fon.jpg);
+    background-image: url(../img/gallery-fon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -390,7 +390,7 @@ header {
 
 
 .about {
-    background-image: url(../IMG/slider-fon.jpg);
+    background-image: url(../img/slider-fon.jpg);
     background-size: cover;
     background-position: center;
     min-height: 300px;
@@ -428,7 +428,7 @@ header {
 
 .form__inner {
     padding-bottom: 40px;
-    background-image: url(../IMG/busines.png);
+    background-image: url(../img/busines.png);
     min-height: 460px;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -568,7 +568,7 @@ header {
 
 .advantages {
     padding: 55px 0px 40px;
-    background-image: url(../IMG/about-fon.jpg);
+    background-image: url(../img/about-fon.jpg);
     background-repeat: no-repeat;
     background-position: center;
     min-height: 285px;
