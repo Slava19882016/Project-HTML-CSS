@@ -841,13 +841,12 @@ h2.title:after {
 }
 
 .album-item {
-    display: block;
+    display: flex;
     flex: 13%;
     overflow: hidden;
     position: relative;
     margin: 3px;
     border-radius: 5%;
-
 }
 
 .album-item-hover {
